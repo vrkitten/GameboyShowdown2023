@@ -241,34 +241,32 @@
             "x": 229,
             "y": 30,
             "actors": [],
-            "triggers": [],
-            "script": [
+            "triggers": [
                 {
-                    "command": "EVENT_SET_INPUT_SCRIPT",
-                    "args": {
-                        "input": [
-                            "a"
-                        ],
-                        "override": true,
-                        "__scriptTabs": "press"
-                    },
-                    "children": {
-                        "true": [
-                            {
-                                "command": "EVENT_SWITCH_SCENE",
-                                "args": {
-                                    "sceneId": "b3b502d7-4648-42db-b001-06e4ab336b88",
-                                    "x": 0,
-                                    "y": 0,
-                                    "direction": "",
-                                    "fadeSpeed": "2"
-                                },
-                                "id": "8305b8d7-5466-4e85-90a8-82a428cffbf1"
-                            }
-                        ]
-                    },
-                    "id": "0b95a522-e81b-4e5f-a24d-e9f896faea0f"
-                },
+                    "name": "",
+                    "id": "e6095a13-cdc8-439b-8890-dc1b964f7d76",
+                    "x": 0,
+                    "y": 5,
+                    "symbol": "trigger_0",
+                    "width": 3,
+                    "height": 8,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "b3b502d7-4648-42db-b001-06e4ab336b88",
+                                "x": 16,
+                                "y": 15,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "2d33dd2a-5aa3-4d18-9322-f5bdbe3f94b4"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
+            "script": [
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -497,7 +495,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "output-onlinejpgtools (23)-export.png"
+            "filename": "output-onlinejpgtools (23)-export.png",
+            "tileColors": []
         },
         {
             "id": "27bc0465-7396-4fd0-9fd7-3b1b12a095c8",
@@ -1488,8 +1487,8 @@
         }
     ],
     "settings": {
-        "startSceneId": "837d16bc-8f4b-41a7-aef6-50fb9b9cf400",
-        "startX": 9,
+        "startSceneId": "f77ec7ae-38de-4bf9-8f68-60cb0206e734",
+        "startX": 10,
         "startY": 9,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
@@ -1497,8 +1496,8 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
-        "worldScrollY": 0,
-        "zoom": 100,
+        "worldScrollY": 200,
+        "zoom": 200,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -1526,9 +1525,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            600,
-            163,
-            163
+            620,
+            168,
+            168
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
