@@ -16,8 +16,8 @@
             "autoFadeSpeed": 1,
             "id": "837d16bc-8f4b-41a7-aef6-50fb9b9cf400",
             "symbol": "scene_1",
-            "x": 61,
-            "y": 30,
+            "x": 66,
+            "y": 37,
             "actors": [],
             "triggers": [],
             "script": [
