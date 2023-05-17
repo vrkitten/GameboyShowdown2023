@@ -273,7 +273,10 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "lorem ipsum"
+                            "As you walk, the \nsun warms your \nface.",
+                            "Birds sing \nhappily nearby.",
+                            "Blooming \nwildflowers add \ncolor to lush \ngreenery.",
+                            "Their fragrance \nenergizes you. \nGet ready for a \nproductive day."
                         ],
                         "avatarId": ""
                     },
@@ -332,7 +335,9 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "lorem ipsum"
+                            "The path leads to \na tranquil stream\nwhere clear waters\nsit peacefully.",
+                            "Time slows down as\nyou pause.  They gracefully swim closer. They acknowledge your presence with camaraderie.",
+                            "You hope to be \ngreeted by \nfamiliar \ncreatures."
                         ],
                         "avatarId": ""
                     },
@@ -497,7 +502,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "output-onlinejpgtools (23)-export.png"
+            "filename": "output-onlinejpgtools (23)-export.png",
+            "tileColors": []
         },
         {
             "id": "27bc0465-7396-4fd0-9fd7-3b1b12a095c8",
@@ -1526,9 +1532,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            600,
-            163,
-            163
+            616,
+            167,
+            167
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
