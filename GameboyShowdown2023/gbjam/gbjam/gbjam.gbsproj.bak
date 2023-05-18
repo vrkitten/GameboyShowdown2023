@@ -273,7 +273,10 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "As you follow the winding path, the gentle warmth of the sun caresses your face, accompanied by a chorus of twittering birds. The vibrant colors of blooming wildflowers create a delightful contrast against the lush greenery, infusing the air with their enchanting fragrance. You can't help but feel energized and inspired, ready to embark on a productive day."
+                            "As you walk, the \nsun warms your \nface.",
+                            "Birds sing \nhappily nearby.",
+                            "Blooming \nwildflowers add \ncolor to lush \ngreenery.",
+                            "Their fragrance \nenergizes you. \nGet ready for a \nproductive day."
                         ],
                         "avatarId": ""
                     },
@@ -332,7 +335,9 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "The path leads you to a tranquil stream, its crystal-clear waters meandering peacefully through the surrounding foliage. Time seems to slow down as you pause, hoping to catch a glimpse of the familiar faces of the creatures that call this place home. They gracefully swim closer, acknowledging your presence with a sense of camaraderie."
+                            "The path leads to \na tranquil stream\nwhere clear waters\nsit peacefully.",
+                            "Time slows down as\nyou pause.  They gracefully swim closer. They acknowledge your presence with camaraderie.",
+                            "You hope to be \ngreeted by \nfamiliar \ncreatures."
                         ],
                         "avatarId": ""
                     },
