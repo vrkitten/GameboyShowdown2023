@@ -5,7 +5,7 @@
     "_release": "3",
     "scenes": [
         {
-            "name": "-Walking home",
+            "name": "1 Path in woods",
             "backgroundId": "76db4331-27b3-4bc6-bf49-286814e6cb52",
             "width": 20,
             "height": 18,
@@ -415,7 +415,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Pass stream",
+            "name": "2 Stream",
             "backgroundId": "b081c70a-25f1-4f9d-b909-ae79fdf0614c",
             "width": 20,
             "height": 18,
@@ -851,7 +851,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Notice ducks",
+            "name": "3 Ducks",
             "backgroundId": "c1cf1aa7-2fc7-4b2d-a834-af69686830f8",
             "width": 20,
             "height": 18,
@@ -2198,7 +2198,7 @@
             "playerSpriteSheetId": "6a72b46b-9cfa-4b1b-b82b-723ab70ac347"
         },
         {
-            "name": "-Peas closeup",
+            "name": "4 Peas",
             "backgroundId": "e8aa7ce4-2910-42de-b2c4-83dddd9c5e16",
             "width": 20,
             "height": 18,
@@ -2634,7 +2634,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Feed ducks peas",
+            "name": "5 Ducks with peas",
             "backgroundId": "0c521d41-502a-41c7-9915-84f77c1f10d8",
             "width": 20,
             "height": 18,
@@ -3070,7 +3070,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Show flowers",
+            "name": "6 Flowers on path",
             "backgroundId": "451db10d-b4da-4efc-a741-7f66af1ad0dd",
             "width": 20,
             "height": 18,
@@ -3506,7 +3506,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Almost home",
+            "name": "7 Path to cabin",
             "backgroundId": "44d3e9bf-4307-4f19-b30a-3bbec20c49f7",
             "width": 20,
             "height": 18,
@@ -3942,7 +3942,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Notice ripe cherries",
+            "name": "8 Cherry tree",
             "backgroundId": "e7225b5a-52c3-4256-a7b3-3c24fe11ff23",
             "width": 20,
             "height": 18,
@@ -4378,7 +4378,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Park bike",
+            "name": "9 Bike",
             "backgroundId": "b45e6e0f-522d-4ba0-9645-8c3a72fc3866",
             "width": 20,
             "height": 18,
@@ -4814,7 +4814,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-cherry branch",
+            "name": "10 Cherry branches",
             "backgroundId": "0778712d-4d07-42bf-929b-76c48c91206f",
             "width": 20,
             "height": 18,
@@ -5250,7 +5250,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Harvest cherries",
+            "name": "11 Cherries-closeup",
             "backgroundId": "53788713-2e9b-47f4-895f-6229257f7f2a",
             "width": 20,
             "height": 18,
@@ -5686,7 +5686,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-cherry basket",
+            "name": "12 Cherry basket",
             "backgroundId": "9eba96f5-85c5-4a41-832c-24b4bb2a52c4",
             "width": 20,
             "height": 18,
@@ -6122,7 +6122,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Go home",
+            "name": "13 Cabin front",
             "backgroundId": "60d12307-9d78-4e7e-a93a-157ef3d5f8b1",
             "width": 20,
             "height": 18,
@@ -6558,7 +6558,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Check garden",
+            "name": "14 Garden",
             "backgroundId": "a8f8eb44-0bf5-42cc-aa2c-7a65c241523f",
             "width": 20,
             "height": 18,
@@ -6994,7 +6994,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Show garden",
+            "name": "15 Crops",
             "backgroundId": "3446fb6d-1e2f-421a-8196-48e68c3827f3",
             "width": 20,
             "height": 18,
@@ -7430,7 +7430,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Harvest veggies",
+            "name": "16 Vegetables",
             "backgroundId": "3ff68ee7-b5f1-450d-85f5-eba380b2293f",
             "width": 20,
             "height": 18,
@@ -7866,7 +7866,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Check greenhouse",
+            "name": "17 Greenhouse",
             "backgroundId": "e5b764f8-1af0-4c25-a191-f097257f126a",
             "width": 20,
             "height": 18,
@@ -8302,7 +8302,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Show plants",
+            "name": "18 Greenhouse-inside",
             "backgroundId": "2eaad601-dac2-4ce9-8174-4711a848ae75",
             "width": 20,
             "height": 18,
@@ -8738,7 +8738,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Clean birdbath",
+            "name": "19 Birdbath",
             "backgroundId": "259b5876-8d3b-4276-8b2a-f4cbeeb4da65",
             "width": 20,
             "height": 18,
@@ -9174,7 +9174,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-path to yard",
+            "name": "20 Bird in bath",
             "backgroundId": "b03b5ea7-58b9-4c4d-a84a-5c8ce8f35571",
             "width": 20,
             "height": 18,
@@ -9610,7 +9610,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-animal pen",
+            "name": "21 Birdseed",
             "backgroundId": "17916db8-16b1-46c5-8d06-fce56dcd5f4e",
             "width": 20,
             "height": 18,
@@ -10046,7 +10046,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "Check on animals",
+            "name": "22 Birdfeeder",
             "backgroundId": "5c433530-f909-45ca-8740-42d192724cc8",
             "width": 20,
             "height": 18,
@@ -10482,7 +10482,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Harvest eggs",
+            "name": "23 Path to yard",
             "backgroundId": "a6d650d7-d3ab-487b-9c49-54f9f47d5ab7",
             "width": 20,
             "height": 18,
@@ -10918,7 +10918,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-sheep in pen",
+            "name": "24 Sheep pen",
             "backgroundId": "b014750a-da32-4698-9d14-2182351269d5",
             "width": 20,
             "height": 18,
@@ -11354,7 +11354,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Let out sheep",
+            "name": "25 Sheep",
             "backgroundId": "9dd45b1a-3838-4e1a-9a6a-eabdee3b922d",
             "width": 20,
             "height": 18,
@@ -11790,7 +11790,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Show pasture",
+            "name": "26 Sheep in field",
             "backgroundId": "70bb87ea-804d-405c-83ff-0cc8c01342bc",
             "width": 20,
             "height": 18,
@@ -12226,7 +12226,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Notice deer",
+            "name": "27 Deer",
             "backgroundId": "613defbd-b4c8-4d99-98e4-1e048319c9ab",
             "width": 20,
             "height": 18,
@@ -12662,7 +12662,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Go inside, ",
+            "name": "28 Chickencoop",
             "backgroundId": "536367e6-9218-4fab-ace0-f729efce3940",
             "width": 20,
             "height": 18,
@@ -13098,7 +13098,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "say hi to cat",
+            "name": "29 Eggs",
             "backgroundId": "51c8135b-1a90-4419-a242-8745838c8fda",
             "width": 20,
             "height": 18,
@@ -13534,7 +13534,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Go to kitchen",
+            "name": "30 Entryway of home",
             "backgroundId": "ddab9cef-51e3-4ff4-b0c0-ceb4cd4ec262",
             "width": 20,
             "height": 18,
@@ -13970,7 +13970,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-kitchen counter",
+            "name": "31 Cat",
             "backgroundId": "32064bab-fa5e-4cf2-a2b0-f81612cdf005",
             "width": 20,
             "height": 18,
@@ -14406,7 +14406,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Bake pie",
+            "name": "32 Kitchen",
             "backgroundId": "875f2205-d7c1-423d-907b-dca5986eded8",
             "width": 20,
             "height": 18,
@@ -14842,7 +14842,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-pie",
+            "name": "33 Kitchen counter",
             "backgroundId": "b82464f8-f1fd-4804-996c-b3bf4d85750a",
             "width": 20,
             "height": 18,
@@ -15278,7 +15278,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Place pie in windowsill",
+            "name": "34 Washing Cherries",
             "backgroundId": "2cd70640-274b-4c4b-8874-a30694a96906",
             "width": 20,
             "height": 18,
@@ -15714,7 +15714,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Take bath",
+            "name": "35 Pie ingredients",
             "backgroundId": "df516a42-8126-42c6-ac10-9797cd57b13d",
             "width": 20,
             "height": 18,
@@ -16150,7 +16150,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "closet",
+            "name": "36 Pie",
             "backgroundId": "63f95f73-7825-4fdc-a31e-ac62823316e4",
             "width": 20,
             "height": 18,
@@ -16586,7 +16586,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "dresses",
+            "name": "37 Windowsill pie",
             "backgroundId": "459e1308-71ab-4aa3-a2d7-624d9e7caf3a",
             "width": 20,
             "height": 18,
@@ -17022,7 +17022,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Place pie in windowsill",
+            "name": "42 Vanity",
             "backgroundId": "47999521-fb5f-4d03-86a2-57f4098adafe",
             "width": 20,
             "height": 18,
@@ -17458,7 +17458,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-make tea",
+            "name": "39 Bubbles",
             "backgroundId": "042afb87-6d13-44b1-bc72-0a7f03a478dd",
             "width": 20,
             "height": 18,
@@ -17894,7 +17894,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "vanity",
+            "name": "38 Bathtub",
             "backgroundId": "c06f3f7c-7d73-4a0a-942e-8b20cc2b544d",
             "width": 20,
             "height": 18,
@@ -18330,7 +18330,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Pack pie for picnic",
+            "name": "40 Closet",
             "backgroundId": "83c88df8-30ef-4d96-a678-4337e9007417",
             "width": 20,
             "height": 18,
@@ -18766,7 +18766,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-picnic",
+            "name": "41 Dresses",
             "backgroundId": "2eb5b728-4ae6-429d-bace-6c2b2a46c8ec",
             "width": 20,
             "height": 18,
@@ -19202,7 +19202,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Place pie in windowsill",
+            "name": "43 Teapot",
             "backgroundId": "2b9b2f3f-06c6-4838-8bfb-f96ba4984ce9",
             "width": 20,
             "height": 18,
@@ -19638,7 +19638,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Place pie in windowsill",
+            "name": "44 Pie slice",
             "backgroundId": "9d89f50e-e425-4772-ac16-b7588352501f",
             "width": 20,
             "height": 18,
@@ -20074,7 +20074,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Place pie in windowsill",
+            "name": "45 Picnic packed",
             "backgroundId": "c6d26a9e-a8ff-41a2-a09e-8149c65e7ac3",
             "width": 20,
             "height": 18,
@@ -20946,7 +20946,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "-Place pie in windowsill",
+            "name": "46 Flowery path in woods",
             "backgroundId": "7faf17f4-c75b-42b2-a21d-36ed70ae8553",
             "width": 20,
             "height": 18,
@@ -27270,7 +27270,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
-        "worldScrollY": 10091.2001953125,
+        "worldScrollY": 0,
         "zoom": 129.16665649414062,
         "customColorsEnabled": false,
         "sgbEnabled": false,
