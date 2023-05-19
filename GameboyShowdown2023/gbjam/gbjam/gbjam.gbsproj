@@ -1676,8 +1676,8 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "b3b502d7-4648-42db-b001-06e4ab336b88",
-                                "x": 11,
-                                "y": 15,
+                                "x": 0,
+                                "y": 0,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -1692,8 +1692,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Not much further \nto go.\n\n",
-                            "Your cottage is \njust around the \nbend."
+                            "You pass a small \nstream on your \nway, \n",
+                            "always waiting a \nmoment to say \nhello to any \nfamiliar faces."
                         ],
                         "avatarId": ""
                     },
@@ -2164,8 +2164,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "You pass a small \nstream on your \nway, \n",
-                            "always waiting a \nmoment to say \nhello to any \nfamiliar faces."
+                            "A family of \nlively ducks \nemerge.\n",
+                            "They quack\njoyfully and wag\ntheir tails as\nthey approach."
                         ],
                         "avatarId": ""
                     },
@@ -2198,8 +2198,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "A family of \nlively ducks \nemerge.",
-                            "They quack\njoyfully and wag\ntheir tails as\nthey approach."
+                            "Since the\nincident, you stay\nstrapped with\nfrozen peas."
                         ],
                         "avatarId": ""
                     },
@@ -25324,7 +25323,7 @@
             "backgroundId": "76db4331-27b3-4bc6-bf49-286814e6cb52",
             "width": 20,
             "height": 18,
-            "type": "TOPDOWN",
+            "type": "LOGO",
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [],
@@ -25335,7 +25334,35 @@
             "y": 88,
             "actors": [],
             "triggers": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "a",
+                            "right"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "05e798fe-f06e-4e15-9a04-32b6e16f3fe6",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "c07df22b-5aa1-4b7c-a7a6-687489792139"
+                            }
+                        ]
+                    },
+                    "id": "31866c8a-5fdd-40dd-adeb-c4a00df3e9be"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
@@ -25370,6 +25397,33 @@
                         "avatarId": ""
                     },
                     "id": "a17a2f1a-6990-47d2-afb7-fead5fef0ebe"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "a",
+                            "right"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "837d16bc-8f4b-41a7-aef6-50fb9b9cf400",
+                                    "x": 5,
+                                    "y": 4,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "c02fb082-d6b5-41d1-9203-328f6a415bf7"
+                            }
+                        ]
+                    },
+                    "id": "502bcb1b-7502-4558-ad23-9cf6242ec775"
                 }
             ],
             "playerHit1Script": [],
@@ -25397,7 +25451,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Since the\nincident, you stay\nstrapped with\nfrozen peas."
+                            "With gratitude,\nthe ducks eagerly\naccept your\noffering.",
+                            "You can feel your\nbond strengthen\nwith every\nexchange."
                         ],
                         "avatarId": ""
                     },
@@ -25429,8 +25484,9 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "With gratitude,\nthe ducks eagerly\naccept your\noffering.",
-                            "You can feel your\nbond strengthen\nwith every\nexchange."
+                            "Serenity envelops\nyou as you journey\nonward.\n",
+                            "Vibrant flowers\nline your path,\n\n",
+                            "their petals\nfluttering gently\nwith the calm\nbreeze."
                         ],
                         "avatarId": ""
                     },
@@ -25462,9 +25518,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Serenity envelops\nyou as you journey\nonward.\n",
-                            "Vibrant flowers\nline your path,\n\n",
-                            "their petals\nfluttering gently\nwith the calm\nbreeze."
+                            "You cherish you\nlife intertwined\nwith nature.\n"
                         ],
                         "avatarId": ""
                     },
@@ -25496,7 +25550,9 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "You cherish you\nlife intertwined\nwith nature.\n"
+                            "Beside your path\nlives a cherry\ntree.\n",
+                            "The tree seems to\nexude a palpable\naura,\n",
+                            "enticing you\nwith sweetness.\n\n"
                         ],
                         "avatarId": ""
                     },
@@ -25528,9 +25584,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Beside your path\nlives a cherry\ntree.\n",
-                            "The tree seems to\nexude a palpable\naura,\n",
-                            "enticing you\nwith sweetness.\n\n"
+                            ""
                         ],
                         "avatarId": ""
                     },
@@ -28228,8 +28282,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 13.600000381469727,
-        "worldScrollY": 1166.4000244140625,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
         "zoom": 129.16665649414062,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -28258,9 +28312,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            659,
-            177,
-            177
+            628,
+            30,
+            30
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
