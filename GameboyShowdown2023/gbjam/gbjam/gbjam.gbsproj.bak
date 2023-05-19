@@ -1676,8 +1676,8 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "b3b502d7-4648-42db-b001-06e4ab336b88",
-                                "x": 11,
-                                "y": 15,
+                                "x": 0,
+                                "y": 0,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -1692,8 +1692,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Not much further \nto go.\n\n",
-                            "Your cottage is \njust around the \nbend."
+                            "You pass a small \nstream on your \nway, \n",
+                            "always waiting a \nmoment to say \nhello to any \nfamiliar faces."
                         ],
                         "avatarId": ""
                     },
@@ -2164,8 +2164,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "You pass a small \nstream on your \nway, \n",
-                            "always waiting a \nmoment to say \nhello to any \nfamiliar faces."
+                            "A family of \nlively ducks \nemerge.\n",
+                            "They quack\njoyfully and wag\ntheir tails as\nthey approach."
                         ],
                         "avatarId": ""
                     },
@@ -2198,8 +2198,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "A family of \nlively ducks \nemerge.",
-                            "They quack\njoyfully and wag\ntheir tails as\nthey approach."
+                            "Since the\nincident, you stay\nstrapped with\nfrozen peas."
                         ],
                         "avatarId": ""
                     },
@@ -25321,10 +25320,10 @@
         },
         {
             "name": "Start Screen",
-            "backgroundId": "76db4331-27b3-4bc6-bf49-286814e6cb52",
+            "backgroundId": "fb9a605b-33cb-49c6-b8c1-c318899c9747",
             "width": 20,
             "height": 18,
-            "type": "TOPDOWN",
+            "type": "LOGO",
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [],
@@ -25335,7 +25334,35 @@
             "y": 88,
             "actors": [],
             "triggers": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "a",
+                            "right"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "05e798fe-f06e-4e15-9a04-32b6e16f3fe6",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "c07df22b-5aa1-4b7c-a7a6-687489792139"
+                            }
+                        ]
+                    },
+                    "id": "31866c8a-5fdd-40dd-adeb-c4a00df3e9be"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
@@ -25370,6 +25397,33 @@
                         "avatarId": ""
                     },
                     "id": "a17a2f1a-6990-47d2-afb7-fead5fef0ebe"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "a",
+                            "right"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "837d16bc-8f4b-41a7-aef6-50fb9b9cf400",
+                                    "x": 5,
+                                    "y": 4,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "c02fb082-d6b5-41d1-9203-328f6a415bf7"
+                            }
+                        ]
+                    },
+                    "id": "502bcb1b-7502-4558-ad23-9cf6242ec775"
                 }
             ],
             "playerHit1Script": [],
@@ -25397,7 +25451,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Since the\nincident, you stay\nstrapped with\nfrozen peas."
+                            "With gratitude,\nthe ducks eagerly\naccept your\noffering.",
+                            "You can feel your\nbond strengthen\nwith every\nexchange."
                         ],
                         "avatarId": ""
                     },
@@ -25429,8 +25484,9 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "With gratitude,\nthe ducks eagerly\naccept your\noffering.",
-                            "You can feel your\nbond strengthen\nwith every\nexchange."
+                            "Serenity envelops\nyou as you journey\nonward.\n",
+                            "Vibrant flowers\nline your path,\n\n",
+                            "their petals\nfluttering gently\nwith the calm\nbreeze."
                         ],
                         "avatarId": ""
                     },
@@ -25462,9 +25518,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Serenity envelops\nyou as you journey\nonward.\n",
-                            "Vibrant flowers\nline your path,\n\n",
-                            "their petals\nfluttering gently\nwith the calm\nbreeze."
+                            "You cherish you\nlife intertwined\nwith nature.\n"
                         ],
                         "avatarId": ""
                     },
@@ -25496,7 +25550,9 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "You cherish you\nlife intertwined\nwith nature.\n"
+                            "Beside your path\nlives a cherry\ntree.\n",
+                            "The tree seems to\nexude a palpable\naura,\n",
+                            "enticing you\nwith sweetness.\n\n"
                         ],
                         "avatarId": ""
                     },
@@ -25528,9 +25584,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Beside your path\nlives a cherry\ntree.\n",
-                            "The tree seems to\nexude a palpable\naura,\n",
-                            "enticing you\nwith sweetness.\n\n"
+                            ""
                         ],
                         "avatarId": ""
                     },
@@ -25923,7 +25977,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "10.png"
+            "filename": "10.png",
+            "tileColors": []
         },
         {
             "id": "53788713-2e9b-47f4-895f-6229257f7f2a",
@@ -25933,7 +25988,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "11.png"
+            "filename": "11.png",
+            "tileColors": []
         },
         {
             "id": "9eba96f5-85c5-4a41-832c-24b4bb2a52c4",
@@ -25943,7 +25999,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "12.png"
+            "filename": "12.png",
+            "tileColors": []
         },
         {
             "id": "60d12307-9d78-4e7e-a93a-157ef3d5f8b1",
@@ -25953,7 +26010,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "13.png"
+            "filename": "13.png",
+            "tileColors": []
         },
         {
             "id": "a8f8eb44-0bf5-42cc-aa2c-7a65c241523f",
@@ -25963,7 +26021,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "14.png"
+            "filename": "14.png",
+            "tileColors": []
         },
         {
             "id": "3446fb6d-1e2f-421a-8196-48e68c3827f3",
@@ -25973,7 +26032,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "15.png"
+            "filename": "15.png",
+            "tileColors": []
         },
         {
             "id": "3ff68ee7-b5f1-450d-85f5-eba380b2293f",
@@ -25983,7 +26043,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "16.png"
+            "filename": "16.png",
+            "tileColors": []
         },
         {
             "id": "e5b764f8-1af0-4c25-a191-f097257f126a",
@@ -25993,7 +26054,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "17.png"
+            "filename": "17.png",
+            "tileColors": []
         },
         {
             "id": "2eaad601-dac2-4ce9-8174-4711a848ae75",
@@ -26003,7 +26065,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "18.png"
+            "filename": "18.png",
+            "tileColors": []
         },
         {
             "id": "259b5876-8d3b-4276-8b2a-f4cbeeb4da65",
@@ -26013,7 +26076,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "19.png"
+            "filename": "19.png",
+            "tileColors": []
         },
         {
             "id": "b081c70a-25f1-4f9d-b909-ae79fdf0614c",
@@ -26023,7 +26087,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "2.png"
+            "filename": "2.png",
+            "tileColors": []
         },
         {
             "id": "b03b5ea7-58b9-4c4d-a84a-5c8ce8f35571",
@@ -26033,7 +26098,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "20.png"
+            "filename": "20.png",
+            "tileColors": []
         },
         {
             "id": "17916db8-16b1-46c5-8d06-fce56dcd5f4e",
@@ -26043,7 +26109,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "21.png"
+            "filename": "21.png",
+            "tileColors": []
         },
         {
             "id": "5c433530-f909-45ca-8740-42d192724cc8",
@@ -26053,7 +26120,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "22.png"
+            "filename": "22.png",
+            "tileColors": []
         },
         {
             "id": "a6d650d7-d3ab-487b-9c49-54f9f47d5ab7",
@@ -26063,7 +26131,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "23.png"
+            "filename": "23.png",
+            "tileColors": []
         },
         {
             "id": "b014750a-da32-4698-9d14-2182351269d5",
@@ -26073,7 +26142,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "24.png"
+            "filename": "24.png",
+            "tileColors": []
         },
         {
             "id": "9dd45b1a-3838-4e1a-9a6a-eabdee3b922d",
@@ -26083,7 +26153,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "25.png"
+            "filename": "25.png",
+            "tileColors": []
         },
         {
             "id": "70bb87ea-804d-405c-83ff-0cc8c01342bc",
@@ -26093,7 +26164,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "26.png"
+            "filename": "26.png",
+            "tileColors": []
         },
         {
             "id": "613defbd-b4c8-4d99-98e4-1e048319c9ab",
@@ -26103,7 +26175,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "27.png"
+            "filename": "27.png",
+            "tileColors": []
         },
         {
             "id": "536367e6-9218-4fab-ace0-f729efce3940",
@@ -26113,7 +26186,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "28.png"
+            "filename": "28.png",
+            "tileColors": []
         },
         {
             "id": "51c8135b-1a90-4419-a242-8745838c8fda",
@@ -26123,7 +26197,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "29.png"
+            "filename": "29.png",
+            "tileColors": []
         },
         {
             "id": "c1cf1aa7-2fc7-4b2d-a834-af69686830f8",
@@ -26133,7 +26208,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "3.png"
+            "filename": "3.png",
+            "tileColors": []
         },
         {
             "id": "ddab9cef-51e3-4ff4-b0c0-ceb4cd4ec262",
@@ -26143,7 +26219,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "30.png"
+            "filename": "30.png",
+            "tileColors": []
         },
         {
             "id": "32064bab-fa5e-4cf2-a2b0-f81612cdf005",
@@ -26153,7 +26230,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "31.png"
+            "filename": "31.png",
+            "tileColors": []
         },
         {
             "id": "875f2205-d7c1-423d-907b-dca5986eded8",
@@ -26163,7 +26241,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "32.png"
+            "filename": "32.png",
+            "tileColors": []
         },
         {
             "id": "b82464f8-f1fd-4804-996c-b3bf4d85750a",
@@ -26173,7 +26252,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "33.png"
+            "filename": "33.png",
+            "tileColors": []
         },
         {
             "id": "2cd70640-274b-4c4b-8874-a30694a96906",
@@ -26183,7 +26263,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "34.png"
+            "filename": "34.png",
+            "tileColors": []
         },
         {
             "id": "df516a42-8126-42c6-ac10-9797cd57b13d",
@@ -26193,7 +26274,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "35.png"
+            "filename": "35.png",
+            "tileColors": []
         },
         {
             "id": "63f95f73-7825-4fdc-a31e-ac62823316e4",
@@ -26203,7 +26285,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "36.png"
+            "filename": "36.png",
+            "tileColors": []
         },
         {
             "id": "459e1308-71ab-4aa3-a2d7-624d9e7caf3a",
@@ -26213,7 +26296,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "37.png"
+            "filename": "37.png",
+            "tileColors": []
         },
         {
             "id": "c06f3f7c-7d73-4a0a-942e-8b20cc2b544d",
@@ -26223,7 +26307,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "38.png"
+            "filename": "38.png",
+            "tileColors": []
         },
         {
             "id": "042afb87-6d13-44b1-bc72-0a7f03a478dd",
@@ -26233,7 +26318,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "39.png"
+            "filename": "39.png",
+            "tileColors": []
         },
         {
             "id": "e8aa7ce4-2910-42de-b2c4-83dddd9c5e16",
@@ -26243,7 +26329,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "4.png"
+            "filename": "4.png",
+            "tileColors": []
         },
         {
             "id": "83c88df8-30ef-4d96-a678-4337e9007417",
@@ -26253,7 +26340,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "40.png"
+            "filename": "40.png",
+            "tileColors": []
         },
         {
             "id": "2eb5b728-4ae6-429d-bace-6c2b2a46c8ec",
@@ -26263,7 +26351,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "41.png"
+            "filename": "41.png",
+            "tileColors": []
         },
         {
             "id": "47999521-fb5f-4d03-86a2-57f4098adafe",
@@ -26273,7 +26362,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "42.png"
+            "filename": "42.png",
+            "tileColors": []
         },
         {
             "id": "2b9b2f3f-06c6-4838-8bfb-f96ba4984ce9",
@@ -26283,7 +26373,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "43.png"
+            "filename": "43.png",
+            "tileColors": []
         },
         {
             "id": "9d89f50e-e425-4772-ac16-b7588352501f",
@@ -26293,7 +26384,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "44.png"
+            "filename": "44.png",
+            "tileColors": []
         },
         {
             "id": "c6d26a9e-a8ff-41a2-a09e-8149c65e7ac3",
@@ -26303,7 +26395,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "45.png"
+            "filename": "45.png",
+            "tileColors": []
         },
         {
             "id": "7faf17f4-c75b-42b2-a21d-36ed70ae8553",
@@ -26313,7 +26406,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "46.png"
+            "filename": "46.png",
+            "tileColors": []
         },
         {
             "id": "f45fb670-2872-44c5-aa26-d58a36766277",
@@ -26323,7 +26417,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "47.png"
+            "filename": "47.png",
+            "tileColors": []
         },
         {
             "id": "c5cbf5a2-776d-4746-97b5-50bef0e0d381",
@@ -26333,7 +26428,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "48.png"
+            "filename": "48.png",
+            "tileColors": []
         },
         {
             "id": "ac8b2613-52ae-4415-8360-83b3b1996a28",
@@ -26343,7 +26439,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "49.png"
+            "filename": "49.png",
+            "tileColors": []
         },
         {
             "id": "0c521d41-502a-41c7-9915-84f77c1f10d8",
@@ -26353,7 +26450,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "5.png"
+            "filename": "5.png",
+            "tileColors": []
         },
         {
             "id": "1c25118e-fd4f-421c-9765-0c6d96fcbf2d",
@@ -26363,7 +26461,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "50.png"
+            "filename": "50.png",
+            "tileColors": []
         },
         {
             "id": "fbd63b36-1b39-41e0-9075-6dc3f44a51e1",
@@ -26373,7 +26472,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "51.png"
+            "filename": "51.png",
+            "tileColors": []
         },
         {
             "id": "4448c85a-d1e6-487d-b383-0ed7ee9ac74b",
@@ -26383,7 +26483,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "52.png"
+            "filename": "52.png",
+            "tileColors": []
         },
         {
             "id": "493efca0-f030-47d2-a5af-26b7c9d12402",
@@ -26393,7 +26494,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "53.png"
+            "filename": "53.png",
+            "tileColors": []
         },
         {
             "id": "724cf457-a694-4abb-b523-42108ec89fae",
@@ -26403,7 +26505,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "54.png"
+            "filename": "54.png",
+            "tileColors": []
         },
         {
             "id": "b00105ee-cf22-4920-ac6b-0bce24ee9770",
@@ -26413,7 +26516,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "55.png"
+            "filename": "55.png",
+            "tileColors": []
         },
         {
             "id": "eebe9ca9-24e0-481d-b90c-2fbe1de77591",
@@ -26423,7 +26527,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "56.png"
+            "filename": "56.png",
+            "tileColors": []
         },
         {
             "id": "451db10d-b4da-4efc-a741-7f66af1ad0dd",
@@ -26433,7 +26538,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "6.png"
+            "filename": "6.png",
+            "tileColors": []
         },
         {
             "id": "44d3e9bf-4307-4f19-b30a-3bbec20c49f7",
@@ -26443,7 +26549,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "7.png"
+            "filename": "7.png",
+            "tileColors": []
         },
         {
             "id": "e7225b5a-52c3-4256-a7b3-3c24fe11ff23",
@@ -26453,7 +26560,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "8.png"
+            "filename": "8.png",
+            "tileColors": []
         },
         {
             "id": "b45e6e0f-522d-4ba0-9645-8c3a72fc3866",
@@ -26463,7 +26571,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "9.png"
+            "filename": "9.png",
+            "tileColors": []
         },
         {
             "id": "305776ec-5a19-40ef-a5dc-e20e0200e4e7",
@@ -26858,6 +26967,16 @@
             "imageHeight": 144,
             "filename": "placeholder.png",
             "tileColors": []
+        },
+        {
+            "id": "fb9a605b-33cb-49c6-b8c1-c318899c9747",
+            "name": "title-screen",
+            "symbol": "bg_title_screen",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "title-screen.png"
         }
     ],
     "spriteSheets": [
@@ -28228,9 +28347,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 13.600000381469727,
-        "worldScrollY": 1166.4000244140625,
-        "zoom": 129.16665649414062,
+        "worldScrollX": 2024.800048828125,
+        "worldScrollY": 212.8000030517578,
+        "zoom": 233.33331298828125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -28258,9 +28377,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            659,
-            177,
-            177
+            891,
+            30,
+            30
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
