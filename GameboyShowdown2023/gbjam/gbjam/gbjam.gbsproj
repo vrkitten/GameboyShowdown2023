@@ -25441,11 +25441,18 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "d7ec0735-56f9-4af6-a4db-40e9c0d8aa53",
+                        "__collapse": true
+                    },
+                    "id": "aa701391-9dba-40ad-8b80-ef08052007b0"
+                },
+                {
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
-                            "a",
-                            "right"
+                            "a"
                         ],
                         "override": true,
                         "__scriptTabs": "press"
@@ -25471,7 +25478,7 @@
                     "command": "EVENT_PALETTE_SET_UI",
                     "args": {
                         "palette": "default-bg-1",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "ba37d99a-b07c-439b-bff4-6d46bfbaa36e"
                 }
@@ -25563,6 +25570,14 @@
                         ]
                     },
                     "id": "00fa9033-9ee0-49ed-8b22-97ee692537b1"
+                },
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "10bde526-b2f0-43b0-8c6c-5833675e2fd0"
                 }
             ],
             "playerHit1Script": [],
@@ -29635,7 +29650,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "dialogue-background.png"
+            "filename": "dialogue-background.png",
+            "tileColors": []
         },
         {
             "id": "305776ec-5a19-40ef-a5dc-e20e0200e4e7",
@@ -30039,7 +30055,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "title-screen.png"
+            "filename": "title-screen.png",
+            "tileColors": []
         }
     ],
     "spriteSheets": [
@@ -31300,7 +31317,7 @@
     "customEvents": [
         {
             "id": "5f5ee776-6bdf-4214-971f-37df3e93866c",
-            "name": "",
+            "name": "ui color",
             "description": "",
             "variables": {},
             "actors": {},
@@ -31314,9 +31331,83 @@
                     "id": "af03cbe9-1333-46cd-89d9-35aa61483eb6"
                 }
             ]
+        },
+        {
+            "id": "1f6b1e7f-a954-4007-a105-5e48d7876327",
+            "name": "music",
+            "description": "",
+            "variables": {},
+            "actors": {},
+            "symbol": "script_2",
+            "script": [
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "d7ec0735-56f9-4af6-a4db-40e9c0d8aa53"
+                    },
+                    "id": "52b99fc9-1881-4bf4-9879-ff22d0f1aea3"
+                }
+            ]
+        },
+        {
+            "id": "2355ae4c-6101-43ca-8077-da5fc722cb6a",
+            "name": "sound effect",
+            "description": "",
+            "variables": {},
+            "actors": {},
+            "symbol": "script_3",
+            "script": [
+                {
+                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                    "args": {
+                        "type": "tone",
+                        "priority": "low",
+                        "pitch": 7,
+                        "frequency": 220,
+                        "duration": 0.2,
+                        "wait": true,
+                        "effect": 0
+                    },
+                    "id": "f8392ad3-3240-443b-ac02-6f4c1a5029bb"
+                }
+            ]
         }
     ],
     "music": [
+        {
+            "id": "322593ec-b6e4-4db6-863a-d343b67bdfd8",
+            "name": "Peppy Pop Song",
+            "symbol": "song_peppy_pop_song",
+            "filename": "Peppy Pop Song.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "d7ec0735-56f9-4af6-a4db-40e9c0d8aa53",
+            "name": "Peppy Regal Overworld",
+            "symbol": "song_peppy_regal_overworld",
+            "filename": "Peppy Regal Overworld.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "99136f1d-724d-4c74-bbda-00899988990d",
+            "name": "Twilight Drive",
+            "symbol": "song_twilight_drive",
+            "filename": "Twilight Drive.mod",
+            "settings": {
+                "disableSpeedConversion": false
+            },
+            "type": "mod"
+        },
+        {
+            "id": "c3f35b63-2c31-493f-b28e-5bd32e173dfa",
+            "name": "odd open inventory",
+            "symbol": "song_odd_open_inventory",
+            "filename": "odd open inventory.mod",
+            "settings": {},
+            "type": "mod"
+        },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
@@ -31428,8 +31519,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 8832.7998046875,
+        "worldScrollX": 872,
+        "worldScrollY": 0,
         "zoom": 129.16665649414062,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -31458,8 +31549,8 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            449,
-            542,
+            361,
+            436,
             30
         ],
         "showNavigator": true,
@@ -31473,7 +31564,7 @@
             "POINTNCLICK": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
             "LOGO": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
         },
-        "musicDriver": "huge",
+        "musicDriver": "gbt",
         "cartType": "mbc5",
         "batterylessEnabled": false,
         "favoriteEvents": [
