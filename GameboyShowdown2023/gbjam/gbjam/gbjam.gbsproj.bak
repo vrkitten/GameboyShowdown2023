@@ -25319,7 +25319,7 @@
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
-            "name": "Start Screen",
+            "name": "Title Screen",
             "backgroundId": "fb9a605b-33cb-49c6-b8c1-c318899c9747",
             "width": 20,
             "height": 18,
