@@ -2345,7 +2345,8 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "6a72b46b-9cfa-4b1b-b82b-723ab70ac347"
+            "playerSpriteSheetId": "6a72b46b-9cfa-4b1b-b82b-723ab70ac347",
+            "autoFadeEventCollapse": true
         },
         {
             "name": "4 Peas",
@@ -25698,7 +25699,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "5",
@@ -25774,7 +25776,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "6",
@@ -25816,7 +25819,7 @@
                             "You cherish you\nlife intertwined\nwith nature.\n"
                         ],
                         "avatarId": "",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "f2bed1fc-4110-4e54-a259-d42474e26a39"
                 },
@@ -25894,7 +25897,7 @@
                             "enticing you\nwith sweetness.\n\n"
                         ],
                         "avatarId": "",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "c2ebf624-06d1-4f05-88c8-30a2d7fcced6"
                 },
@@ -25967,7 +25970,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "You park your\nbike and make\nyour way over to\nthe tree."
                         ],
                         "avatarId": ""
                     },
@@ -26042,7 +26045,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "As you suspected,\nthe tree is in \nfull bloom.\n"
                         ],
                         "avatarId": ""
                     },
@@ -26117,7 +26120,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Morning dew on the\nfruits sparkle as\nyou meander\ncloser."
                         ],
                         "avatarId": ""
                     },
@@ -26192,7 +26195,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "You harvest\ncherries by the\nhandful, filling\nyour basket."
                         ],
                         "avatarId": ""
                     },
@@ -26267,7 +26270,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Your daily\ntasks await.\n\n",
+                            "It's hard, but\nrewarding work.\n\n"
                         ],
                         "avatarId": ""
                     },
@@ -26342,7 +26346,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Starting in the\ngarden, "
                         ],
                         "avatarId": ""
                     },
@@ -32403,8 +32407,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 41.599998474121094,
-        "worldScrollY": 11424.7998046875,
+        "worldScrollX": 0,
+        "worldScrollY": 2499.199951171875,
         "zoom": 129.16665649414062,
         "customColorsEnabled": true,
         "sgbEnabled": false,

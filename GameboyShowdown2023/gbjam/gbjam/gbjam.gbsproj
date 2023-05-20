@@ -2203,7 +2203,7 @@
                                     {
                                         "command": "EVENT_SWITCH_SCENE",
                                         "args": {
-                                            "sceneId": "34a8c81b-a29c-4038-9407-68e5e770aebf",
+                                            "sceneId": "29228b6a-886c-4050-97ef-a2c749fb2783",
                                             "x": 6,
                                             "y": 5,
                                             "direction": "",
@@ -2308,7 +2308,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Since the\nincident, you stay\nstrapped with\nfrozen peas."
+                            "Since the\nincident, you \nbring frozen peas\non every walk."
                         ],
                         "avatarId": ""
                     },
@@ -26270,8 +26270,9 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Your daily\ntasks await.\n\n",
-                            "It's hard, but\nrewarding work.\n\n"
+                            "Your daily\ntasks await at\nhome.\n",
+                            "It's a quaint\ncottage, enveloped\nin sparsely\npruned ivy.",
+                            "A source of\nnurturing\ncompanionship can\nbe found here."
                         ],
                         "avatarId": ""
                     },
@@ -26346,7 +26347,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Starting in the\ngarden, "
+                            "Plants of all\nsorts flourish in\nyour garden.\n "
                         ],
                         "avatarId": ""
                     },
@@ -26421,7 +26422,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Tapstries of\ncolors and scent\nshow true nature's\nwonders."
                         ],
                         "avatarId": ""
                     },
@@ -26496,7 +26497,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Earthy aroma fills\nthe air as you\npluck vegetables.\n",
+                            "You are\ncultivating\nnourishment.\n"
                         ],
                         "avatarId": ""
                     },
@@ -26571,7 +26573,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Crops in the\ngreenhouse must\nalso be tended to.\n"
                         ],
                         "avatarId": ""
                     },
@@ -26646,7 +26648,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Stuffed full of\nbotanical\nvitality,\n",
+                            "nothing showcases\nyour green thumb\nlike your\ngreenhouse."
                         ],
                         "avatarId": ""
                     },
@@ -26721,7 +26724,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "A refreshing\nbirdbath sits on\nyour path forward,\n",
+                            "its sparkling\nwater a solace to\nany guest.\n"
                         ],
                         "avatarId": ""
                     },
@@ -26796,7 +26800,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "A visitor already.\n\n\n"
                         ],
                         "avatarId": ""
                     },
@@ -26871,7 +26875,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Her excursion\nreminds you to\nrefill the\nbirdfeeder."
                         ],
                         "avatarId": ""
                     },
@@ -26946,7 +26950,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Replenished, your\ncompany seems\ncontent for the\nday."
                         ],
                         "avatarId": ""
                     },
@@ -27021,7 +27025,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Further around the\ngarden path lies\nthe pasture trail.\n",
+                            "You have no\nconcern for space\nhere.\n"
                         ],
                         "avatarId": ""
                     },
@@ -27096,9 +27101,11 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Animals of any\nkind are welcome\nto find a home\nwith you.",
+                            "Happiest are the\nsheep, who were\nhere long before\nyour arrival."
                         ],
-                        "avatarId": ""
+                        "avatarId": "",
+                        "__collapse": false
                     },
                     "id": "5588d1f8-7a56-4a1a-b346-1d61ccbc9582"
                 },
@@ -27171,7 +27178,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "They are happy to\nsee you, and ready\nfor grazing.\n",
+                            "You let the sheep\nout each morning,\nso that they may\nroam until sunset."
                         ],
                         "avatarId": ""
                     },
@@ -27246,7 +27254,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Single-file, they\ndisappear into\nthe distance,\n",
+                            "stopping\nmomentarily for\nfarewells.\n"
                         ],
                         "avatarId": ""
                     },
@@ -27321,7 +27330,9 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "The sight of \nsomething in the \novergrowth catches\nyour eye.",
+                            "It's a spring\nfawn!",
+                            "You feel blessed\nto witness such\nan enchanting\nseason."
                         ],
                         "avatarId": ""
                     },
@@ -27396,7 +27407,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Toward the chicken\ncoop, you prepare\nroom in your \nbasket for eggs."
                         ],
                         "avatarId": ""
                     },
@@ -27471,7 +27482,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Happy chickens\nalways lay\nplenty of eggs!\n"
                         ],
                         "avatarId": ""
                     },
@@ -27546,7 +27557,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "With only cherry\npie on your mind,\nyou hurry inside.\n"
                         ],
                         "avatarId": ""
                     },
@@ -27621,7 +27632,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Your house cat\narrises from their\nslumber in the sun\nto greet you."
                         ],
                         "avatarId": ""
                     },
@@ -27696,7 +27707,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "After a quick pat,\nyou rush toward\nthe kitchen in\nanticipation."
                         ],
                         "avatarId": ""
                     },
@@ -27771,7 +27782,9 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "It's been nearly a\nyear since you've\nhad fresh cherry\npie.",
+                            "Your reserves\nnever seem to last\nas long as you \nhope.",
+                            "Maybe it's because\nyou make so many\npies.\n"
                         ],
                         "avatarId": ""
                     },
@@ -27846,7 +27859,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "You wash your\nfruits thoroughly\n\n"
                         ],
                         "avatarId": ""
                     },
@@ -27921,7 +27934,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "and prepare your\ningredients.\n"
                         ],
                         "avatarId": ""
                     },
@@ -32407,8 +32420,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 2499.199951171875,
+        "worldScrollX": 66.4000015258789,
+        "worldScrollY": 7136.7998046875,
         "zoom": 129.16665649414062,
         "customColorsEnabled": true,
         "sgbEnabled": false,
