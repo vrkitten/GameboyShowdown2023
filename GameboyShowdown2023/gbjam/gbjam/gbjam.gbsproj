@@ -2289,6 +2289,14 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "453c14d9-4242-4e06-94c0-58dbddf4d93a"
+                },
+                {
                     "command": "EVENT_PALETTE_SET_UI",
                     "args": {
                         "palette": "default-bg-1",
@@ -25530,6 +25538,14 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "eb7eca80-f401-4e7c-804c-7f426daa43b6"
+                },
+                {
                     "command": "EVENT_PALETTE_SET_UI",
                     "args": {
                         "palette": "default-bg-1",
@@ -25627,6 +25643,14 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "25775820-66de-4009-bed0-4ced9e655f99"
+                },
+                {
                     "command": "EVENT_PALETTE_SET_UI",
                     "args": {
                         "palette": "default-bg-1",
@@ -25693,6 +25717,14 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "ac6ea64a-3207-42fb-a542-c4c29af1e414"
+                },
                 {
                     "command": "EVENT_PALETTE_SET_UI",
                     "args": {
@@ -25762,6 +25794,14 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "900f4329-e953-4195-b895-7d723b68144a"
+                },
+                {
                     "command": "EVENT_PALETTE_SET_UI",
                     "args": {
                         "palette": "default-bg-1",
@@ -25829,6 +25869,14 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "b07da033-2a9e-47cc-9aa8-a8ac3b44c382"
+                },
                 {
                     "command": "EVENT_PALETTE_SET_UI",
                     "args": {
@@ -25900,6 +25948,14 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "23fcdd62-4f5a-4b3f-9aaa-c2eb0cfbb02e"
+                },
+                {
                     "command": "EVENT_PALETTE_SET_UI",
                     "args": {
                         "palette": "default-bg-1",
@@ -25946,7 +26002,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "9",
@@ -25965,6 +26022,14 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "034a7d11-4d45-4acd-a0a6-127b609e5c71"
+                },
                 {
                     "command": "EVENT_PALETTE_SET_UI",
                     "args": {
@@ -26012,7 +26077,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "10",
@@ -26031,6 +26097,14 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "3a2afe35-88b6-441c-a04f-8f77954c6444"
+                },
                 {
                     "command": "EVENT_PALETTE_SET_UI",
                     "args": {
@@ -26078,7 +26152,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "11",
@@ -26097,6 +26172,14 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "629b4eeb-5049-4be6-934a-0ecda7f5dfb3"
+                },
                 {
                     "command": "EVENT_PALETTE_SET_UI",
                     "args": {
@@ -26144,7 +26227,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "12",
@@ -26163,6 +26247,14 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "0a4faae5-360c-4b11-acd9-39893dc36750"
+                },
                 {
                     "command": "EVENT_PALETTE_SET_UI",
                     "args": {
@@ -26210,7 +26302,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "13",
@@ -26229,6 +26322,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "75458e32-6488-4050-8c2f-4bb3393073cd"
+                },
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "887e668d-de00-4076-bc75-f3bee376ee8f"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -26268,7 +26377,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "14",
@@ -26287,6 +26397,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "9241d42d-7dd7-4460-8bcb-d657285bdf95"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "fe1ba7c2-97c4-4ee6-ae5f-5597a658ada3"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -26326,7 +26452,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "15",
@@ -26345,6 +26472,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "b5e6d484-6dc6-419e-af6e-676f9263c77d"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "35f1238f-6df6-4d9c-8683-935719c8b203"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -26384,7 +26527,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "16",
@@ -26403,6 +26547,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "fbbce539-7678-4d6d-a8f8-45709d56a292"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "95dc2553-2563-4f17-a236-279d5a1dce08"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -26442,7 +26602,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "17",
@@ -26461,6 +26622,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "c5c8b3a6-cdd2-40ef-8a3b-2ce7fe216f39"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "5a280074-b17c-487d-890f-bfb08203a852"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -26500,7 +26677,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "18",
@@ -26519,6 +26697,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "1caad8f0-6fe9-4b05-80c0-86a32e2b43d2"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "d5810e16-53fd-4b54-be30-ae95dd96a025"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -26558,7 +26752,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "19",
@@ -26577,6 +26772,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "30ceeae5-6a5b-48c6-be23-3249ff273c12"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "e444af55-2791-4a6a-baf3-a2c1b8d12630"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -26616,7 +26827,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "20",
@@ -26635,6 +26847,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "67da8576-8651-4241-ade9-45932d20a156"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "467fa142-0e8d-4a91-a517-438b882a16e1"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -26674,7 +26902,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "21",
@@ -26693,6 +26922,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "29f7e368-b791-4092-a3b6-fd001f9cb407"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "b4842033-189f-4559-a0e1-b28f3226201e"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -26732,7 +26977,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "22",
@@ -26751,6 +26997,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "c30d94b5-4ba2-4eb7-ac6b-3ece2cfe0d2b"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "0f6c5069-defd-4f7d-aa28-4d86032816a9"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -26790,7 +27052,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "23",
@@ -26809,6 +27072,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "d9b34792-cc89-407f-b78d-37047bb4b568"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "2fc60d7f-387d-4f98-8927-8905c7fdf841"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -26848,7 +27127,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "24",
@@ -26867,6 +27147,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "3fa53d0b-82a5-44e3-a9d5-bd3a68268ca3"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "d125e209-7b38-40b4-9057-5b4bc484ff54"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -26906,7 +27202,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "25",
@@ -26925,6 +27222,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "3efb458e-6314-44dc-b244-bc31fe15e454"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "e4909062-7c86-4132-8218-9622b26d25e9"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -26964,7 +27277,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "26",
@@ -26983,6 +27297,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "e5399b24-87a4-4c86-9d1b-f7d5625bcaa2"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "e9993ca1-49c4-406b-8a6d-2ab70a5079f6"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -27022,7 +27352,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "27",
@@ -27041,6 +27372,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "210e51a2-7063-4dce-a152-22fcef2c1ba6"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "167fb598-800d-486e-9e39-d5958f4b2318"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -27080,7 +27427,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "28",
@@ -27099,6 +27447,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "fd1abc7c-bccd-4136-af8c-8510bbc5c7e9"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "a3560865-24fd-4422-9954-a3f80ef275a9"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -27138,7 +27502,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "29",
@@ -27157,6 +27522,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "b1f4c0b1-06ff-40d9-b086-0da34a83880e"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "846d4c71-af12-4fd7-b05f-c326229a976d"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -27196,7 +27577,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "30",
@@ -27215,6 +27597,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "0fbaac17-9c74-4d03-afb2-f18cf0e503c2"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "22a56197-2eab-4035-a61f-f1194c580bb2"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -27254,7 +27652,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "31",
@@ -27273,6 +27672,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "d26d65f7-ec9c-4228-a731-725e4421ef76"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "1aa6738b-0b84-413c-9fab-0af94e1875ca"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -27312,7 +27727,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "32",
@@ -27331,6 +27747,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "a0629ad7-43e2-46b8-aaa3-2b6c38a7e71f"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "ea6216e7-e94c-4b7e-8523-ede1ef1eb905"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -27370,7 +27802,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "33",
@@ -27389,6 +27822,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "7151e0f0-cb58-4ee7-91c4-b8d7ec97366f"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "bec8eecd-abcd-417e-9942-8f86b78201ad"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -27428,7 +27877,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "34",
@@ -27447,6 +27897,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "ba6b90b2-498d-4a8c-ad38-4d8f871bb4bd"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "7ff927c0-e653-428d-beba-fa131bbdb2b4"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -27486,7 +27952,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "35",
@@ -27505,6 +27972,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "38e82391-164c-4c75-a996-a31da24d37d5"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "24c29b78-00e9-4cf1-b8b7-238d6068b4ce"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -27544,7 +28027,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "36",
@@ -27563,6 +28047,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "d3afa0bc-2c1e-453b-9391-8989336f5917"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "49ed1782-ffb0-416a-9a02-78ae9bf83699"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -27602,7 +28102,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "37",
@@ -27621,6 +28122,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "52b25507-13c2-4393-a191-fa818c0c8f51"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "35017f24-37a3-4b75-90aa-7b891dc1508e"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -27660,7 +28177,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "38",
@@ -27679,6 +28197,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "6c57b8e2-fe3e-4dcb-a8b8-1b46d36f78f2"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "4ca413bf-2a3d-445e-bed9-6d9f59d554e4"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -27718,7 +28252,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "39",
@@ -27737,6 +28272,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "4ea335eb-e09e-4077-8f16-582b914acc7d"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "ff1a2e0d-0da2-420d-8211-ce0db7a437b9"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -27776,7 +28327,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "40",
@@ -27795,6 +28347,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "4d9fdebe-b9b9-4f58-afb2-06a56ddfe041"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "454edfdf-6793-4a31-9bb9-771be4861d3d"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -27834,7 +28402,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "41",
@@ -27853,6 +28422,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "d2fe310a-62dd-43dd-9b17-8156a8fe2e84"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "67659a9f-a5b5-4431-801e-4ae7d029a939"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -27892,7 +28477,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "42",
@@ -27911,6 +28497,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "dd4604d1-86aa-4fdb-a619-ac5f09f76831"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "ab6e45d7-9434-471b-9f6d-1393afcc1bc7"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -27950,7 +28552,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "43",
@@ -27969,6 +28572,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "c3de75cd-0883-4c82-9d24-93529c6ebfd1"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "78dc16f9-e896-4d7a-a64c-09a0b25a3541"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -28008,7 +28627,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "44",
@@ -28027,6 +28647,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "b77402e6-3868-4d49-a987-ac6d11debd1e"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "a2a58a3e-312d-4190-893b-ac9d3a7a7235"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -28066,7 +28702,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "45",
@@ -28085,6 +28722,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "c3ba618e-bc21-4b5e-bd75-8aa924958a45"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "fa356a0b-206f-402b-994c-aec55d4042d2"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -28124,7 +28777,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "46",
@@ -28143,6 +28797,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "8c895c36-3b7c-49fb-beb7-565aba8e3e26"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "d5cd6d92-f8cd-4caf-b0f3-9e97ac894c7e"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -28182,7 +28852,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "47",
@@ -28201,6 +28872,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "c7b4e410-a21e-4e01-938f-fbe08125c883"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "96cd3671-701c-4083-9c30-6cbe92054372"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -28240,7 +28927,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "48",
@@ -28259,6 +28947,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "d55cbd38-9c4f-4c3e-8c77-03f4f2b073bf"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "6f889d32-d630-4145-b5d9-86ecfd184abf"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -28298,7 +29002,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "49",
@@ -28317,6 +29022,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "9e484862-e817-48e8-afc2-0d973da928fd"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "80d1d833-0c94-44d5-9aee-a299489dd37b"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -28356,7 +29077,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "50",
@@ -28375,6 +29097,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "9c4dcb7c-5171-4233-88eb-71b54f4f91bb"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "184a208f-4181-422d-bf88-48b05ff8a259"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -28414,7 +29152,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "51",
@@ -28433,6 +29172,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "2d144c5b-29ef-4f6a-905c-213730951cb2"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "bfee0c41-6c73-48ac-b798-04e48bd47ca8"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -28472,7 +29227,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "52",
@@ -28491,6 +29247,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "6ca71426-f184-4169-96a4-e761cb027497"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "a69bcbee-b285-45c6-b47b-076fd01afeb9"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -28530,7 +29302,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "53",
@@ -28549,6 +29322,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "8d7bb2d7-a714-4293-9180-ab342c892924"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "9aa9eddb-9c57-4bf2-9432-30365710d775"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -28588,7 +29377,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "54",
@@ -28607,6 +29397,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "7ad91549-f742-4800-81dc-168776d2b8c7"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "5c0bcc3e-fc48-4bed-97cd-dc02342fe52e"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -28646,7 +29452,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         },
         {
             "name": "55",
@@ -28665,6 +29472,22 @@
             "actors": [],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "ad7717f1-198f-4860-b0e0-b71d134a2367"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "18a90c80-d150-4dfa-a1ab-44c97bfb393c"
+                },
                 {
                     "command": "EVENT_TEXT",
                     "args": {
@@ -28704,7 +29527,8 @@
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
         }
     ],
     "backgrounds": [
@@ -31414,6 +32238,23 @@
                     "id": "f8392ad3-3240-443b-ac02-6f4c1a5029bb"
                 }
             ]
+        },
+        {
+            "id": "eccab7ab-ecd3-4149-af47-edef30e18528",
+            "name": "hide actor",
+            "description": "",
+            "variables": {},
+            "actors": {},
+            "symbol": "script_4",
+            "script": [
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$"
+                    },
+                    "id": "9314f530-c0c4-4c93-8b6a-b179fa13c398"
+                }
+            ]
         }
     ],
     "music": [
@@ -31562,8 +32403,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 0,
+        "worldScrollX": 41.599998474121094,
+        "worldScrollY": 11424.7998046875,
         "zoom": 129.16665649414062,
         "customColorsEnabled": true,
         "sgbEnabled": false,

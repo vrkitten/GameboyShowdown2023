@@ -20171,7 +20171,7 @@
                             {
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
-                                    "sceneId": "34a8c81b-a29c-4038-9407-68e5e770aebf",
+                                    "sceneId": "6ab5f2cb-eec1-4d2a-9825-66fa7e526e3a",
                                     "x": 9,
                                     "y": 8,
                                     "direction": "",
@@ -20607,7 +20607,7 @@
                             {
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
-                                    "sceneId": "34a8c81b-a29c-4038-9407-68e5e770aebf",
+                                    "sceneId": "1886485d-df81-41d5-93de-361c09d49933",
                                     "x": 9,
                                     "y": 8,
                                     "direction": "",
@@ -21043,7 +21043,7 @@
                             {
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
-                                    "sceneId": "b5f9ba76-1df0-4edc-95ff-41d7e85bba63",
+                                    "sceneId": "8040e5c5-c5c8-4214-860e-e0f36400f166",
                                     "x": 9,
                                     "y": 8,
                                     "direction": "",
@@ -21479,7 +21479,7 @@
                             {
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
-                                    "sceneId": "34a8c81b-a29c-4038-9407-68e5e770aebf",
+                                    "sceneId": "fb11967d-2903-41fc-857c-7dce4c39ab23",
                                     "x": 9,
                                     "y": 8,
                                     "direction": "",
@@ -21915,7 +21915,7 @@
                             {
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
-                                    "sceneId": "a341fe1e-4732-46a7-8864-64e537795653",
+                                    "sceneId": "11b54e90-f4d8-4ce5-a868-2ae8b8845994",
                                     "x": 9,
                                     "y": 8,
                                     "direction": "",
@@ -22351,7 +22351,7 @@
                             {
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
-                                    "sceneId": "34a8c81b-a29c-4038-9407-68e5e770aebf",
+                                    "sceneId": "1c912d53-e806-46db-b675-120bc189d566",
                                     "x": 9,
                                     "y": 8,
                                     "direction": "",
@@ -22787,7 +22787,7 @@
                             {
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
-                                    "sceneId": "34a8c81b-a29c-4038-9407-68e5e770aebf",
+                                    "sceneId": "0fc6fb61-2e3e-40f1-99af-20a946b6933e",
                                     "x": 9,
                                     "y": 8,
                                     "direction": "",
@@ -23223,7 +23223,7 @@
                             {
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
-                                    "sceneId": "34a8c81b-a29c-4038-9407-68e5e770aebf",
+                                    "sceneId": "aa55177f-23c9-4a70-9566-8b64851543e5",
                                     "x": 9,
                                     "y": 8,
                                     "direction": "",
@@ -23659,7 +23659,7 @@
                             {
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
-                                    "sceneId": "34a8c81b-a29c-4038-9407-68e5e770aebf",
+                                    "sceneId": "02347621-bd0e-4447-965d-d8a4f28f83c7",
                                     "x": 9,
                                     "y": 8,
                                     "direction": "",
@@ -24095,7 +24095,7 @@
                             {
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
-                                    "sceneId": "34a8c81b-a29c-4038-9407-68e5e770aebf",
+                                    "sceneId": "c4970635-d063-4fe0-bdf0-5ba22e693b22",
                                     "x": 9,
                                     "y": 8,
                                     "direction": "",
@@ -24531,7 +24531,7 @@
                             {
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
-                                    "sceneId": "34a8c81b-a29c-4038-9407-68e5e770aebf",
+                                    "sceneId": "6b42a4ee-9704-4bec-9268-0a0e3ba36e21",
                                     "x": 9,
                                     "y": 8,
                                     "direction": "",
@@ -24967,7 +24967,7 @@
                             {
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
-                                    "sceneId": "ccacc705-d2ad-4199-b02d-8c6b1faea8aa",
+                                    "sceneId": "24bd84ac-630f-4a55-924e-2ac6788933db",
                                     "x": 9,
                                     "y": 8,
                                     "direction": "",
