@@ -1727,7 +1727,7 @@
                     "args": {
                         "text": [
                             "You pass a small \nstream on your \nway, \n",
-                            "always waiting a \nmoment to say \nhello to any \nfamiliar faces."
+                            "waiting a moment\nto say hello to\nany familiar\nfaces."
                         ],
                         "avatarId": ""
                     },
@@ -1763,7 +1763,8 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "6a72b46b-9cfa-4b1b-b82b-723ab70ac347"
+            "playerSpriteSheetId": "6a72b46b-9cfa-4b1b-b82b-723ab70ac347",
+            "autoFadeEventCollapse": true
         },
         {
             "name": "Scene 5",
@@ -2233,7 +2234,7 @@
                     "args": {
                         "text": [
                             "A family of \nlively ducks \nemerge.\n",
-                            "They quack\njoyfully and wag\ntheir tails as\nthey approach."
+                            "They quack\njoyfully with\nwagging tails as\nthey approach."
                         ],
                         "avatarId": ""
                     },
@@ -2308,7 +2309,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Since the\nincident, you \nbring frozen peas\non every walk."
+                            "Since the\nincident, you \nbring frozen peas\non every",
+                            "walk past the\nstream.\n\n"
                         ],
                         "avatarId": ""
                     },
@@ -16692,7 +16694,7 @@
                             {
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
-                                    "sceneId": "0f76b0b6-5e09-46ce-8385-d8bd6f347e6a",
+                                    "sceneId": "38682e5a-1e42-4c3c-96bd-ad711abbab84",
                                     "x": 9,
                                     "y": 8,
                                     "direction": "",
@@ -19290,7 +19292,7 @@
             "id": "19451367-8a95-4a45-961d-57606d9176b6",
             "symbol": "scene_45",
             "x": 60,
-            "y": 6837.729883263757,
+            "y": 6834.633108826323,
             "actors": [],
             "triggers": [],
             "script": [
@@ -25741,7 +25743,7 @@
                         "text": [
                             "Serenity envelops\nyou as you journey\nonward.\n",
                             "Vibrant flowers\nline your path,\n\n",
-                            "their petals\nfluttering gently\nwith the calm\nbreeze."
+                            "their petals\nfluttering gently\nwith the calm\nbreeze. "
                         ],
                         "avatarId": ""
                     },
@@ -25816,7 +25818,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "You cherish you\nlife intertwined\nwith nature.\n"
+                            "You cherish your\nlife intertwined\nwith nature.\n"
                         ],
                         "avatarId": "",
                         "__collapse": false
@@ -26120,7 +26122,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Morning dew on the\nfruits sparkle as\nyou meander\ncloser."
+                            "Morning dew on the\nfruits sparkle as\nyou meander\nnear."
                         ],
                         "avatarId": ""
                     },
@@ -26195,7 +26197,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "You harvest\ncherries by the\nhandful, filling\nyour basket."
+                            "You harvest\ncherries by the\nhandful,\n",
+                            "filling your\nbasket as much as\nyou can.\n"
                         ],
                         "avatarId": ""
                     },
@@ -26271,7 +26274,7 @@
                     "args": {
                         "text": [
                             "Your daily\ntasks await at\nhome.\n",
-                            "It's a quaint\ncottage, enveloped\nin sparsely\npruned ivy.",
+                            "A quaint cottage, \nenveloped in \nsparsely pruned \nivy.",
                             "A source of\nnurturing\ncompanionship can\nbe found here."
                         ],
                         "avatarId": ""
@@ -26422,7 +26425,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Tapstries of\ncolors and scent\nshow true nature's\nwonders."
+                            "Tapstries of\ncolors and scent\nenvelop the area,\n",
+                            "showing true\nnature's wonders.\n\n"
                         ],
                         "avatarId": ""
                     },
@@ -26649,7 +26653,7 @@
                     "args": {
                         "text": [
                             "Stuffed full of\nbotanical\nvitality,\n",
-                            "nothing showcases\nyour green thumb\nlike your\ngreenhouse."
+                            "nothing showcases\nyour greenthumb\nlike the\ngreenhouse."
                         ],
                         "avatarId": ""
                     },
@@ -27101,8 +27105,9 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Animals of any\nkind are welcome\nto find a home\nwith you.",
-                            "Happiest are the\nsheep, who were\nhere long before\nyour arrival."
+                            "Animals of any\nkind are welcome\nto call you home.\n",
+                            "But happiest are\nthe sheep, \n\n",
+                            "who were\nhere long before\nyour arrival.\n"
                         ],
                         "avatarId": "",
                         "__collapse": false
@@ -27178,8 +27183,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "They are happy to\nsee you, and ready\nfor grazing.\n",
-                            "You let the sheep\nout each morning,\nso that they may\nroam until sunset."
+                            "They are happy to\nsee you, and ready\nfor grazing.\n"
                         ],
                         "avatarId": ""
                     },
@@ -27330,8 +27334,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "The sight of \nsomething in the \novergrowth catches\nyour eye.",
-                            "It's a spring\nfawn!",
+                            "Something in the \novergrowth catches\nyour eye.\n",
+                            "It's a spring\nfawn!\n\n",
                             "You feel blessed\nto witness such\nan enchanting\nseason."
                         ],
                         "avatarId": ""
@@ -27407,7 +27411,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Toward the chicken\ncoop, you prepare\nroom in your \nbasket for eggs."
+                            "Toward the chicken\ncoop, you make\nroom in your \nbasket."
                         ],
                         "avatarId": ""
                     },
@@ -27632,7 +27636,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Your house cat\narrises from their\nslumber in the sun\nto greet you."
+                            "Arising from their\nslumber in the sun\nto greet you,\n",
+                            "your house cat\nstretches out\nhotdog style.\n"
                         ],
                         "avatarId": ""
                     },
@@ -27934,7 +27939,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "and prepare your\ningredients.\n"
+                            "and prepare your\ningredients.\n\n"
                         ],
                         "avatarId": ""
                     },
@@ -28009,7 +28014,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "In a flash, your\npie is assembled.\n\n",
+                            "Your fluted crust\nmirroring the\nhand-crimped edge\nof the dish."
                         ],
                         "avatarId": ""
                     },
@@ -28040,81 +28046,6 @@
                         ]
                     },
                     "id": "7666b540-0b1e-420a-bc14-ded8004cd302"
-                }
-            ],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": [],
-            "autoFadeEventCollapse": true
-        },
-        {
-            "name": "36",
-            "backgroundId": "cb49332f-3a46-49bc-97ea-bcfc556f3895",
-            "width": 20,
-            "height": 18,
-            "type": "TOPDOWN",
-            "paletteIds": [],
-            "spritePaletteIds": [],
-            "collisions": [],
-            "autoFadeSpeed": 1,
-            "id": "0f76b0b6-5e09-46ce-8385-d8bd6f347e6a",
-            "symbol": "scene_94",
-            "x": 233.54841557053425,
-            "y": 5980.852169610964,
-            "actors": [],
-            "triggers": [],
-            "script": [
-                {
-                    "command": "EVENT_PALETTE_SET_UI",
-                    "args": {
-                        "palette": "default-bg-1",
-                        "__collapse": true
-                    },
-                    "id": "d3afa0bc-2c1e-453b-9391-8989336f5917"
-                },
-                {
-                    "command": "EVENT_ACTOR_HIDE",
-                    "args": {
-                        "actorId": "$self$",
-                        "__collapse": true
-                    },
-                    "id": "49ed1782-ffb0-416a-9a02-78ae9bf83699"
-                },
-                {
-                    "command": "EVENT_TEXT",
-                    "args": {
-                        "text": [
-                            ""
-                        ],
-                        "avatarId": ""
-                    },
-                    "id": "a0111d9c-116d-41fd-a007-ccb662e4eb8e"
-                },
-                {
-                    "command": "EVENT_SET_INPUT_SCRIPT",
-                    "args": {
-                        "input": [
-                            "a"
-                        ],
-                        "override": true,
-                        "__scriptTabs": "press"
-                    },
-                    "children": {
-                        "true": [
-                            {
-                                "command": "EVENT_SWITCH_SCENE",
-                                "args": {
-                                    "sceneId": "b203af1e-51a5-4767-9161-a863e2b2df05",
-                                    "x": 0,
-                                    "y": 0,
-                                    "direction": "",
-                                    "fadeSpeed": "2"
-                                },
-                                "id": "20433022-67ce-4562-8f50-08c451bd929f"
-                            }
-                        ]
-                    },
-                    "id": "ecaa449c-a1d6-4d37-bb16-4fae47b9b6b2"
                 }
             ],
             "playerHit1Script": [],
@@ -28159,7 +28090,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Time for a warm\nbubble bath.\n\n"
                         ],
                         "avatarId": ""
                     },
@@ -28234,7 +28165,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "You soak in milky\nwater, laden with\nfresh rose petals.\n"
                         ],
                         "avatarId": ""
                     },
@@ -28309,7 +28240,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Emerging from your\nbath, you wrap\nyourself in a \ncotton robe.",
+                            "Sunny rays warm\nthe fibers,\nblanketing you in\ntoasty delight."
                         ],
                         "avatarId": ""
                     },
@@ -28384,7 +28316,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Emracing the\nopportunity for\nself expression,\n",
+                            "you leisurely\nselect a beloved\ngarment.\n"
                         ],
                         "avatarId": ""
                     },
@@ -28459,7 +28392,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "An array of\noptions before\nyou,\n",
+                            "careful selection\nand preparation\nready you for your\nday."
                         ],
                         "avatarId": ""
                     },
@@ -28534,7 +28468,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "An artisan rosette\nof black tea, \nfastened with \nsilk string",
+                            "steeped in local\nspring water to\naccompany your\npie."
                         ],
                         "avatarId": ""
                     },
@@ -28609,7 +28544,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "You section an\neighth of the pie\nonto a matching\ndish,",
+                            "and wrap it\ncarefully in a\nscrap of linen.\n"
                         ],
                         "avatarId": ""
                     },
@@ -28684,7 +28620,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "You pack an\nassortment of\ntreats and\nactivites,",
+                            "then fasten the\ncreaky wicker\nstraps of your\nbasket."
                         ],
                         "avatarId": ""
                     },
@@ -28759,7 +28696,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Everything is set\nfor a delightful \nafternoon.\n",
+                            "Relaxation and \nindulgence are\nyour only burden.\n"
                         ],
                         "avatarId": ""
                     },
@@ -28834,7 +28772,10 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "You roam through\nthe floral\nthicket, \n",
+                            "that which\nprovides your\noasis privacy.\n",
+                            "Emerging from the\nshady path, you\ncome to a meadow.\n",
+                            "You lay out your\npicnic spread.\n\n"
                         ],
                         "avatarId": ""
                     },
@@ -28909,7 +28850,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Savoring your pie\nand sipping tea\nfrom a porcelain\ncup,",
+                            "your imagination\nis captivated\nwithin the pages\nof a book."
                         ],
                         "avatarId": ""
                     },
@@ -28984,7 +28926,9 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "As the shadows of\nthe trees stretch\nover you,\n",
+                            "your enclave is\nrobbed of its\npleasantry.\n",
+                            "You pack your\nbasket and proceed\nforward further\ninto the meadow."
                         ],
                         "avatarId": ""
                     },
@@ -29059,7 +29003,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "The meadown\nencircled in\nmature shrubbery,\n",
+                            "you craft a simple\nflower crown as\nyou promenade to\na new venue."
                         ],
                         "avatarId": ""
                     },
@@ -29134,7 +29079,11 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "As evening\napproaches, a\ngolden glow falls\nupon the field.",
+                            "A sublime sunset\nerupts over the\nsea of blossoms.\n",
+                            "You attempt to\ncapture the\nmoment,\n",
+                            "inundated with\nenchanting new\nperspectives, \n",
+                            "and the feeling\nthat time has\nbecome an etherial\nconcept."
                         ],
                         "avatarId": ""
                     },
@@ -29209,7 +29158,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "You conclude your\nillustration and\nretire to your\nshelter.",
+                            "Sparse tweets and\nchirps of song\nbirds guide your\nway."
                         ],
                         "avatarId": ""
                     },
@@ -29284,7 +29234,8 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "You relax near the\ngarden, over a\nsmall burrow.\n",
+                            "Commonly on cool\nnights you ignite\na small fire here.\n"
                         ],
                         "avatarId": ""
                     },
@@ -29359,7 +29310,11 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Self-contained,\nyou leave the snug\npreserve for night\ncritters.",
+                            "You retreat inside\nto the comfort of\nyour plush bed.\n",
+                            "A friendly lump\njostles under the\nquilt,\n",
+                            "you slowly fold\nback a corner of\nthe heavy fabric,\n",
+                            "revealing your\nsource of warmth\nfor the night.\n"
                         ],
                         "avatarId": ""
                     },
@@ -29434,7 +29389,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "Soft blankets\ncocoon you both.\n\n"
                         ],
                         "avatarId": ""
                     },
@@ -29509,7 +29464,9 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            ""
+                            "You're invited to\nsurrender to the\nsoft embrace of\ndreams.",
+                            "A gentle lullaby\nof today's\nmemories blanket\nyou.",
+                            "You look forward\nto tomorrow.\n\n"
                         ],
                         "avatarId": ""
                     },
@@ -29540,6 +29497,82 @@
                         ]
                     },
                     "id": "51ec113e-56c2-485b-b380-30b1abb1e452"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "autoFadeEventCollapse": true
+        },
+        {
+            "name": "36",
+            "backgroundId": "cb49332f-3a46-49bc-97ea-bcfc556f3895",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "38682e5a-1e42-4c3c-96bd-ad711abbab84",
+            "symbol": "scene_0",
+            "x": 234.47744849242764,
+            "y": 5977.600405241966,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_PALETTE_SET_UI",
+                    "args": {
+                        "palette": "default-bg-1",
+                        "__collapse": true
+                    },
+                    "id": "50d24e87-2602-4155-864d-ab4f640793b2"
+                },
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$",
+                        "__collapse": true
+                    },
+                    "id": "8ada9775-e629-44fd-a0f6-fcf859c748bf"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "You leave it to\ncool in an open\nwindow,\n",
+                            "small wind gusts\nwafting it's scent\nthrough the house\non occasion."
+                        ],
+                        "avatarId": ""
+                    },
+                    "id": "5ec1a99b-4c43-429d-af41-acf1d400117e"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "a"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "b203af1e-51a5-4767-9161-a863e2b2df05",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "f5b64edb-57e8-4518-b5b1-a4d77b4a4ca9"
+                            }
+                        ]
+                    },
+                    "id": "a3599dbe-483b-4201-a6ca-521636553988"
                 }
             ],
             "playerHit1Script": [],
@@ -32420,8 +32453,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 66.4000015258789,
-        "worldScrollY": 7136.7998046875,
+        "worldScrollX": 57.599998474121094,
+        "worldScrollY": 11257.599609375,
         "zoom": 129.16665649414062,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -32450,8 +32483,8 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            443,
-            540,
+            442,
+            541,
             30
         ],
         "showNavigator": true,
